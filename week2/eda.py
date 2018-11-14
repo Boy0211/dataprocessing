@@ -10,8 +10,8 @@ class EDA():
     def __init__(self):
         df = self.load_data()
         df = self.processing_data(df)
-        # self.calculate_central_tendency_GDP(df)
-        # self.calculate_fivenumber(df)
+        self.calculate_central_tendency_GDP(df)
+        self.calculate_fivenumber(df)
         self.write_json_file(df)
 
 
@@ -50,11 +50,10 @@ class EDA():
         x = df['Country'].tolist()
         y = new_gdp
 
-        plt.bar(x,y,align='center') # A bar chart
+        plt.hist(y, 5) # A bar chart
         plt.xlabel('Countrys')
         plt.ylabel('GDP in dollars')
-        plt.xticks(rotation=90, fontsize=5)
-        plt.rc('font', size=1)
+        plt.xticks(rotation=90, fontsize=10)
         plt.show(block=True)
 
     def calculate_fivenumber(self, df):
@@ -89,10 +88,8 @@ class EDA():
 
         df['Region'] = df['Region'].str.strip()
         df1 = df.set_index('Country')
-        print(df1)
 
         json = df1.to_json("CountryData.json", orient='index')
-        print(type(json))
 
 
 if __name__ == "__main__":
