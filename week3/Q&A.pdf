@@ -5,7 +5,7 @@ Explain the difference between the == operator and the === operator.
       because 8 is an number and '8' is a string.
 
 Explain what a closure is. (Note that JavaScript programs use closures very often)
-    - By using closure you can return a value of a function whitin a function.
+    - By using a closure you can return a value of a function whitin a function.
       Using this well, prevents use of to many variables.
 
 Explain what higher order functions are.
