@@ -1,0 +1,17 @@
+
+Explain the difference between the == operator and the === operator.
+    - The == operator is used compare two values not inherent to what kind of
+      value is used. Eg. 8 == '88' is True, while 8 === '8' is false. This is
+      because 8 is an number and '8' is a string.
+
+Explain what a closure is. (Note that JavaScript programs use closures very often)
+    - By using closure you can return a value of a function whitin a function.
+      Using this well, prevents use of to many variables.
+
+Explain what higher order functions are.
+    - Higher order functions can use functionns as input and give them as output
+      as well. Eg. Closures.
+
+Explain what a query selector is and give an example line of JavaScript that uses a query selector.
+    - returns the first element in a file whith the searchelement in it.
+      eg. var x = document.querySelectorAll(".example");
