@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>D3 Test</title>
+        <!-- <text>D3 bar-chart</text> -->
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="d3/d3.js"></script>
+    </head>
+    <body>
+        <!-- <svg class="chart"></svg> -->
+        <script type="text/javascript">
+
+            // The width and the height of the SVG element
+            var w = 1000;
+            var h = 700;
+            var textSpace = 100;
+            var axisText = 100;
+            var barPadding = 1;
+            var padding = 100;
+
+            // Creating the svg element
+            var svg = d3.select("svg")
+                        .attr("width", w + padding)
+                        .attr("height", h + textSpace);
+
+            // Importing the data
+            d3.json("/data/data.json").then(function(data)  {
+
+              //Scale x
+              var x = d3.scaleLinear()
+                  .domain([0, data.length])
+                  .range([0, w])
+
+              //Scale y
+              var y = d3.scaleLinear()
+                  .domain([0, d3.max(data, function(d) {
+                        return d.Population;
+                        })])
+                  .range([h, 0]);
+
+              //create references for the axis
+              var xAxis = d3.axisBottom(x)
+                            .ticks(function(d) { return data[d].Country; })
+              var yAxis = d3.axisLeft(y);
+
+              //Create Y axis
+              svg.append("g")
+                  .attr("class", "axis")
+                  .attr("transform", "translate(" + padding + ",0)")
+                  .call(yAxis);
+
+              //Create X axis
+              svg.append("g")
+                  .attr("class", "axis")
+                  .attr("transform", "translate(" + padding + ","+ h +")")
+                  .call(xAxis)
+                  .selectAll("text")
+                      .style("text-anchor", "end")
+                      .attr("dx", "-.8em")
+                      .attr("dy", ".15em")
+                      .attr("transform", "rotate(-65)" );
+
+              //Create BarChart
+              svg.selectAll("rect")
+                   .data(data)
+                   .enter()
+                   .append("rect")
+                   .attr("y", function(d)  {
+                     var barHeight = d.Population / 300000
+                     return h - barHeight;
+                   })
+                   .attr("width", (w - padding) / data.length - barPadding)
+                   .attr("height", function(d)  {
+                     var barHeight = d.Population / 300000
+                      return barHeight;
+                   })
+                   .attr("x", function(d, i)  {
+                      return i * (w / data.length) + padding;
+                   })
+                   .attr("fill", "grey");
+              });
+
+        </script>
+        <!-- <text>Sam Kuilboer<br>12442690</text> -->
+    </body>
+</html>

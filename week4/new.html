@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>D3 Test</title>
+        <!-- <text>D3 bar-chart</text> -->
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="d3/d3.js"></script>
+    </head>
+    <body>
+        <svg width="960" height="500"></svg>
+        <script type="text/javascript" src=d3/d3.js></script>
+        <script>
+
+            // Creating the svg element
+            var svg = d3.select("svg"),
+                margin = {top: 50, right: 20, bottom: 50, left:20},
+                width = +svg.attr("width") - margin.left - margin.right,
+                height = +svg.attr("height") - margin.top - margin.bottom;
+            console.log(svg)
+
+            var x = d3.scaleBand().rangeRound([0, width]).padding(0.1),
+                y = d3.scaleLinear().rangeRound([height, 0]);
+
+            var g = svg.append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            // Importing the data
+            d3.json("/data/data.json").then(function(data)  {
+              console.log(data)
+
+              //Scale x
+              x.domain(function(d) {return d.Country;});
+              y.domain([0, d3.max(data, function(d) {return d.Population;})]);
+
+              //Create X axis
+              g.append("g")
+                  .attr("class", "axis")
+                  .attr("transform", "translate(0" + height + ")")
+                  .call(d3.axisBottom(x));
+
+              //Create X axis
+              g.append("g")
+                  .attr("class", "axis")
+                  .call(d3.axisLeft(y).ticks(10000000))
+                .append("text")
+                  .attr("transform", "rotate(-65)")
+                  .attr("y", 6)
+                  .attr("dy", "0.71em")
+                  .attr("text-anchor", "end")
+                  .text("Population")
+
+              g.selectAll(".bar")
+                .data(data)
+                .enter()
+                .append("rect")
+                  .attr("class", "bar")
+                  .attr("x", function(d) { return x(d.Country); })
+                  .attr("y", function(d) { return y(d.Population); })
+                  .attr("width", x.bandwith())
+                  .attr("height", function(d) { return height - y(d.Population); });
+            })
+            .catch((error) => { throw error;})
+        </script>
+        <!-- <text>Sam Kuilboer<br>12442690</text> -->
+    </body>
+</html>
