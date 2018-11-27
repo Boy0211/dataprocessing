@@ -8,13 +8,14 @@
         <script type="text/javascript" src="d3/d3.js"></script>
     </head>
     <body>
-        <!-- <svg class="chart"></svg> -->
+        <h1>Poplation per country in the EU:</h1>
+        <svg class="chart"></svg>
         <script type="text/javascript">
 
             // The width and the height of the SVG element
-            var w = 1000;
-            var h = 700;
-            var textSpace = 100;
+            var w = 1400;
+            var h = 530;
+            var textSpace = 165;
             var axisText = 100;
             var barPadding = 1;
             var padding = 100;
@@ -26,11 +27,19 @@
 
             // Importing the data
             d3.json("/data/data.json").then(function(data)  {
+              console.log(data)
+
+              var id = [];
+              for (i = 0; i < data.length; i++){
+                var value = data[i].Country
+                id.push(value)
+              }
 
               //Scale x
-              var x = d3.scaleLinear()
-                  .domain([0, data.length])
-                  .range([0, w])
+              var x = d3.scaleBand()
+                        .domain(id)
+                        .padding(0.2)
+                        .range([0, w])
 
               //Scale y
               var y = d3.scaleLinear()
@@ -40,9 +49,12 @@
                   .range([h, 0]);
 
               //create references for the axis
-              var xAxis = d3.axisBottom(x)
-                            .ticks(function(d) { return data[d].Country; })
+              var xAxis = d3.axisBottom()
+                            .ticks(id.length)
+                            .scale(x)
               var yAxis = d3.axisLeft(y);
+
+              var mouse = d3.select("body").append("div").attr("class", "d3-tip");
 
               //Create Y axis
               svg.append("g")
@@ -78,10 +90,19 @@
                    .attr("x", function(d, i)  {
                       return i * (w / data.length) + padding;
                    })
-                   .attr("fill", "grey");
+                   .attr("fill", "black")
+                   // placing the mouse over
+                   .on("mousemove", function(d){
+                     mouse
+                      .style("left", d3.event.pageX - 50 +"px")
+                      .style("top", d3.event.pageY - 70 + "px")
+                      .style("display", "inline-block")
+                      .html("Population: " + (d.Population));
+                    })
+            		        .on("mouseout", function(d){ mouse.style("display", "none");});
               });
 
         </script>
-        <!-- <text>Sam Kuilboer<br>12442690</text> -->
+        <text class="text">Sam Kuilboer<br>12442690</text>
     </body>
 </html>
