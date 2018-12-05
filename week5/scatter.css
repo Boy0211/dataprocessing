@@ -1,7 +1,27 @@
 name {
-  font-size: 8px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 14px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 12px;
 }
 
 datapoint:hover {
   fill: white;
   }
+
+.legend {
+  border: 2px solid black;
+}
+
+g.rect {
+  border: 2px solid black;
+}

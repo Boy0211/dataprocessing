@@ -1,106 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>D3 Test</title>
-        <link rel="stylesheet" href="style.css">
-        <script type="text/javascript" src="d3/d3.js"></script>
-    </head>
-    <body>
-        <h1>Poplation per country in the EU:</h1>
-        <svg class="chart"></svg>
-        <script type="text/javascript">
 
-            // The width and the height of the SVG element
-            var w = 1400;
-            var h = 530;
-            var textSpace = 165;
-            var axisText = 100;
-            var barPadding = 1;
-            var padding = 100;
+<head>
+  <meta charset="utf-8">
+  <title>D3 Test</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="d3/d3.js"></script>
+</head>
 
-            // Creating the svg element
-            var svg = d3.select("svg")
-                        .attr("width", w + padding)
-                        .attr("height", h + textSpace);
+<body>
+  <h1>Poplation per country in the EU:</h1>
+  <svg class="chart"></svg>
+  <script type="text/javascript">
+    // The width and the height of the SVG element
+    var w = 1400;
+    var h = 530;
+    var textSpace = 165;
+    var axisText = 100;
+    var barPadding = 1;
+    var padding = 100;
 
-            // Importing the data
-            d3.json("/data/data.json").then(function(data)  {
+    // Creating the svg element
+    var svg = d3.select("svg")
+      .attr("width", w + padding)
+      .attr("height", h + textSpace);
 
-              var id = [];
-              for (i = 0; i < data.length; i++){
-                var value = data[i].Country
-                id.push(value)
-              }
+    // Importing the data
+    d3.json("/data/data.json").then(function(data) {
 
-              //Scale x
-              var x = d3.scaleBand()
-                        .domain(id)
-                        .padding(0.2)
-                        .range([0, w])
+      var id = [];
+      for (i = 0; i < data.length; i++) {
+        var value = data[i].Country
+        id.push(value)
+      }
 
-              //Scale y
-              var y = d3.scaleLinear()
-                  .domain([0, d3.max(data, function(d) {
-                        return d.Population;
-                        })])
-                  .range([h, 0]);
+      //Scale x
+      var x = d3.scaleBand()
+        .domain(id)
+        .padding(0.2)
+        .range([0, w])
 
-              //create references for the axis
-              var xAxis = d3.axisBottom()
-                            .ticks(id.length)
-                            .scale(x)
-              var yAxis = d3.axisLeft(y);
+      //Scale y
+      var y = d3.scaleLinear()
+        .domain([0, d3.max(data, function(d) {
+          return d.Population;
+        })])
+        .range([h, 0]);
 
-              var mouse = d3.select("body").append("div").attr("class", "d3-tip");
+      //create references for the axis
+      var xAxis = d3.axisBottom()
+        .ticks(id.length)
+        .scale(x)
+      var yAxis = d3.axisLeft(y);
 
-              //Create Y axis
-              svg.append("g")
-                  .attr("class", "axis")
-                  .attr("transform", "translate(" + padding + ",0)")
-                  .call(yAxis);
+      var mouse = d3.select("body").append("div").attr("class", "d3-tip");
 
-              //Create X axis
-              svg.append("g")
-                  .attr("class", "axis")
-                  .attr("transform", "translate(" + padding + ","+ h +")")
-                  .call(xAxis)
-                  .selectAll("text")
-                      .style("text-anchor", "end")
-                      .attr("dx", "-.8em")
-                      .attr("dy", ".15em")
-                      .attr("transform", "rotate(-65)" );
+      //Create Y axis
+      svg.append("g")
+        .attr("class", "axis")
+        .attr("transform", "translate(" + padding + ",0)")
+        .call(yAxis);
 
-              //Create BarChart
-              svg.selectAll("rect")
-                   .data(data)
-                   .enter()
-                   .append("rect")
-                   .attr("y", function(d)  {
-                     var barHeight = d.Population / 300000
-                     return h - barHeight;
-                   })
-                   .attr("width", (w - padding) / data.length - barPadding)
-                   .attr("height", function(d)  {
-                     var barHeight = d.Population / 300000
-                      return barHeight;
-                   })
-                   .attr("x", function(d, i)  {
-                      return i * (w / data.length) + padding;
-                   })
-                   .attr("fill", "black")
-                   // placing the mouse over
-                   .on("mousemove", function(d){
-                     mouse
-                      .style("left", d3.event.pageX - 50 +"px")
-                      .style("top", d3.event.pageY - 70 + "px")
-                      .style("display", "inline-block")
-                      .html("Population: " + (d.Population));
-                    })
-            		        .on("mouseout", function(d){ mouse.style("display", "none");});
-              });
+      //Create X axis
+      svg.append("g")
+        .attr("class", "axis")
+        .attr("transform", "translate(" + padding + "," + h + ")")
+        .call(xAxis)
+        .selectAll("text")
+        .style("text-anchor", "end")
+        .attr("dx", "-.8em")
+        .attr("dy", ".15em")
+        .attr("transform", "rotate(-65)");
 
-        </script>
-        <text class="text">Sam Kuilboer<br>12442690</text>
-    </body>
+      //Create BarChart
+      svg.selectAll("rect")
+        .data(data)
+        .enter()
+        .append("rect")
+        .attr("y", function(d) {
+          var barHeight = d.Population / 300000
+          return h - barHeight;
+        })
+        .attr("width", (w - padding) / data.length - barPadding)
+        .attr("height", function(d) {
+          var barHeight = d.Population / 300000
+          return barHeight;
+        })
+        .attr("x", function(d, i) {
+          return i * (w / data.length) + padding;
+        })
+        .attr("fill", "black")
+        // placing the mouse over
+        .on("mousemove", function(d) {
+          mouse
+            .style("left", d3.event.pageX - 50 + "px")
+            .style("top", d3.event.pageY - 70 + "px")
+            .style("display", "inline-block")
+            .html("Population: " + (d.Population));
+        })
+        .on("mouseout", function(d) {
+          mouse.style("display", "none");
+        });
+    });
+  </script>
+  <text class="text">Sam Kuilboer<br>12442690</text>
+</body>
+
 </html>
