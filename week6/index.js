@@ -1,3 +1,11 @@
+// Studentnummer : 12442690
+// Naam: Sam Kuilboer
+
+// Sources:
+// https://bl.ocks.org/lorenzopub/352ad2e6f577c4abf55e29e6d422535a
+// https://blockbuilder.org/guilhermesimoes/8913c15adf7dd2cab53a
+// https://bl.ocks.org/d3noob/4db972df5d7efc7d611255d1cc6f3c4f
+
 window.onload = function() {
 
   var margin = {top: 50, right:50, bottom:100, left:50};
@@ -311,8 +319,6 @@ window.onload = function() {
         .entries(data);
 
       for (var i = 0; i < nested.length; i++) {
-        // console.log(nested[i].key);
-        // console.log(country);
         if (nested[i].key == country) {
           var integer = i
         }
