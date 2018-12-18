@@ -1,0 +1,985 @@
+,Country,Year,Gender,Population
+0,Australia,2002,Males,9753133.0
+1,Australia,2003,Males,9873447.0
+2,Australia,2004,Males,9990513.0
+3,Australia,2005,Males,10121438.0
+4,Australia,2006,Males,10257418.0
+5,Australia,2007,Males,10444622.0
+6,Australia,2008,Males,10660917.0
+7,Australia,2009,Males,10888385.0
+8,Australia,2010,Males,11124254.0
+9,Australia,2011,Males,11260747.0
+10,Australia,2012,Males,11280804.0
+11,Australia,2002,Females,9887846.0
+12,Australia,2003,Females,9999199.0
+13,Australia,2004,Females,10100991.0
+14,Australia,2005,Females,10218321.0
+15,Australia,2006,Females,10348070.0
+16,Australia,2007,Females,10570420.0
+17,Australia,2008,Females,10770864.0
+18,Australia,2009,Females,10986535.0
+19,Australia,2010,Females,11218144.0
+20,Australia,2011,Females,11359807.0
+21,Australia,2012,Females,11402769.0
+22,Australia,2002,Total males+females,19640979.0
+23,Australia,2003,Total males+females,19872646.0
+24,Australia,2004,Total males+females,20091504.0
+25,Australia,2005,Total males+females,20339759.0
+26,Australia,2006,Total males+females,20605488.0
+27,Australia,2007,Total males+females,21015042.0
+28,Australia,2008,Total males+females,21431781.0
+29,Australia,2009,Total males+females,21874920.0
+30,Australia,2010,Total males+females,22342398.0
+31,Australia,2011,Total males+females,22620554.0
+32,Australia,2012,Total males+females,22683573.0
+33,Austria,2002,Males,3959567.0
+34,Austria,2003,Males,3909120.0
+35,Austria,2004,Males,3949825.0
+36,Austria,2005,Males,3986296.0
+37,Austria,2006,Males,4019354.0
+38,Austria,2007,Males,4037171.0
+39,Austria,2008,Males,4054214.0
+40,Austria,2009,Males,4068047.0
+41,Austria,2010,Males,4079093.0
+42,Austria,2011,Males,4095337.0
+43,Austria,2012,Males,4118035.0
+44,Austria,2002,Females,4179743.0
+45,Austria,2003,Females,4158169.0
+46,Austria,2004,Females,4190297.0
+47,Austria,2005,Females,4220228.0
+48,Austria,2006,Females,4246571.0
+49,Austria,2007,Females,4261752.0
+50,Austria,2008,Females,4277716.0
+51,Austria,2009,Females,4287213.0
+52,Austria,2010,Females,4296197.0
+53,Austria,2011,Females,4308915.0
+54,Austria,2012,Females,4324983.0
+55,Austria,2002,Total males+females,8139310.0
+56,Austria,2003,Total males+females,8067289.0
+57,Austria,2004,Total males+females,8140122.0
+58,Austria,2005,Total males+females,8206524.0
+59,Austria,2006,Total males+females,8265925.0
+60,Austria,2007,Total males+females,8298923.0
+61,Austria,2008,Total males+females,8331930.0
+62,Austria,2009,Total males+females,8355260.0
+63,Austria,2010,Total males+females,8375290.0
+64,Austria,2011,Total males+females,8404252.0
+65,Austria,2012,Total males+females,8443018.0
+66,Belgium,2002,Males,5042288.0
+67,Belgium,2003,Males,5066885.0
+68,Belgium,2004,Males,5087176.0
+69,Belgium,2005,Males,5111325.0
+70,Belgium,2006,Males,5143821.0
+71,Belgium,2007,Males,5181408.0
+72,Belgium,2008,Males,5224309.0
+73,Belgium,2009,Males,5268651.0
+74,Belgium,2010,Males,5312221.0
+75,Belgium,2011,Males,5370234.0
+76,Belgium,2012,Males,5413801.0
+77,Belgium,2002,Females,5267437.0
+78,Belgium,2003,Females,5288959.0
+79,Belgium,2004,Females,5309245.0
+80,Belgium,2005,Females,5334527.0
+81,Belgium,2006,Females,5367561.0
+82,Belgium,2007,Females,5403126.0
+83,Belgium,2008,Females,5442557.0
+84,Belgium,2009,Females,5484429.0
+85,Belgium,2010,Females,5527684.0
+86,Belgium,2011,Females,4996609.0
+87,Belgium,2012,Females,5622157.0
+88,Belgium,2002,Total males+females,10309725.0
+89,Belgium,2003,Total males+females,10355844.0
+90,Belgium,2004,Total males+females,10396421.0
+91,Belgium,2005,Total males+females,10445852.0
+92,Belgium,2006,Total males+females,10511382.0
+93,Belgium,2007,Total males+females,10584534.0
+94,Belgium,2008,Total males+females,10666866.0
+95,Belgium,2009,Total males+females,10753080.0
+96,Belgium,2010,Total males+females,10839905.0
+97,Belgium,2011,Total males+females,10366843.0
+98,Belgium,2012,Total males+females,11035958.0
+99,Canada,2003,Males,15532438.0
+100,Canada,2004,Males,15538572.0
+101,Canada,2005,Males,15842787.0
+102,Canada,2006,Males,15995582.0
+103,Canada,2007,Males,16170723.0
+104,Canada,2008,Males,16326141.0
+105,Canada,2009,Males,16524504.0
+106,Canada,2010,Males,16526676.0
+107,Canada,2011,Males,16826122.5
+108,Canada,2012,Males,17113541.0
+109,Canada,2003,Females,15829173.0
+110,Canada,2004,Females,15834015.0
+111,Canada,2005,Females,16146667.0
+112,Canada,2006,Females,16303914.0
+113,Canada,2007,Females,16478759.0
+114,Canada,2008,Females,16601231.0
+115,Canada,2009,Females,16802833.0
+116,Canada,2010,Females,16807738.5
+117,Canada,2011,Females,17101813.0
+118,Canada,2012,Females,17379104.5
+119,Canada,2003,Total males+females,31361611.0
+120,Canada,2004,Total males+females,31372587.0
+121,Canada,2005,Total males+females,31989454.0
+122,Canada,2006,Total males+females,32299496.0
+123,Canada,2007,Total males+females,32649482.0
+124,Canada,2008,Total males+females,32927372.0
+125,Canada,2009,Total males+females,33327337.0
+126,Canada,2010,Total males+females,33334414.5
+127,Canada,2011,Total males+females,33927935.5
+128,Canada,2012,Total males+females,34492645.5
+129,Czech Republic,2002,Males,5005508.0
+130,Czech Republic,2003,Males,4966706.0
+131,Czech Republic,2004,Males,4974740.0
+132,Czech Republic,2005,Males,4980913.0
+133,Czech Republic,2006,Males,5002648.0
+134,Czech Republic,2007,Males,5026184.0
+135,Czech Republic,2008,Males,5082934.0
+136,Czech Republic,2009,Males,5136377.0
+137,Czech Republic,2010,Males,5157197.0
+138,Czech Republic,2011,Males,5168799.0
+139,Czech Republic,2012,Males,5158210.0
+140,Czech Republic,2002,Females,5264218.0
+141,Czech Republic,2003,Females,5236563.0
+142,Czech Republic,2004,Females,5236715.0
+143,Czech Republic,2005,Females,5239664.0
+144,Czech Republic,2006,Females,5248431.0
+145,Czech Republic,2007,Females,5261005.0
+146,Czech Republic,2008,Females,5298196.0
+147,Czech Republic,2009,Females,5331165.0
+148,Czech Republic,2010,Females,5349616.0
+149,Czech Republic,2011,Females,5363971.0
+150,Czech Republic,2012,Females,5347235.0
+151,Czech Republic,2002,Total males+females,10269726.0
+152,Czech Republic,2003,Total males+females,10203269.0
+153,Czech Republic,2004,Total males+females,10211455.0
+154,Czech Republic,2005,Total males+females,10220577.0
+155,Czech Republic,2006,Total males+females,10251079.0
+156,Czech Republic,2007,Total males+females,10287189.0
+157,Czech Republic,2008,Total males+females,10381130.0
+158,Czech Republic,2009,Total males+females,10467542.0
+159,Czech Republic,2010,Total males+females,10506813.0
+160,Czech Republic,2011,Total males+females,10532770.0
+161,Czech Republic,2012,Total males+females,10505445.0
+162,Denmark,2002,Males,2654146.0
+163,Denmark,2003,Males,2662423.0
+164,Denmark,2004,Males,2670135.0
+165,Denmark,2005,Males,2677292.0
+166,Denmark,2006,Males,2685846.0
+167,Denmark,2007,Males,2696662.0
+168,Denmark,2008,Males,2712666.0
+169,Denmark,2009,Males,2732020.0
+170,Denmark,2010,Males,2743286.0
+171,Denmark,2011,Males,2756582.0
+172,Denmark,2012,Males,2766776.0
+173,Denmark,2002,Females,2714208.0
+174,Denmark,2003,Females,2721084.0
+175,Denmark,2004,Females,2727505.0
+176,Denmark,2005,Females,2734113.0
+177,Denmark,2006,Females,2741613.0
+178,Denmark,2007,Females,2750422.0
+179,Denmark,2008,Females,2763125.0
+180,Denmark,2009,Females,2779431.0
+181,Denmark,2010,Females,2791452.0
+182,Denmark,2011,Females,2804046.0
+183,Denmark,2012,Females,2813740.0
+184,Denmark,2002,Total males+females,5368354.0
+185,Denmark,2003,Total males+females,5383507.0
+186,Denmark,2004,Total males+females,5397640.0
+187,Denmark,2005,Total males+females,5411405.0
+188,Denmark,2006,Total males+females,5427459.0
+189,Denmark,2007,Total males+females,5447084.0
+190,Denmark,2008,Total males+females,5475791.0
+191,Denmark,2009,Total males+females,5511451.0
+192,Denmark,2010,Total males+females,5534738.0
+193,Denmark,2011,Total males+females,5560628.0
+194,Denmark,2012,Total males+females,5580516.0
+195,Finland,2002,Males,2537597.0
+196,Finland,2003,Males,2544916.0
+197,Finland,2004,Males,2552893.0
+198,Finland,2005,Males,2562077.0
+199,Finland,2006,Males,2572350.0
+200,Finland,2007,Males,2583742.0
+201,Finland,2008,Males,2596787.0
+202,Finland,2009,Males,2611653.0
+203,Finland,2010,Males,2625067.0
+204,Finland,2011,Males,2638416.0
+205,Finland,2012,Males,2652534.0
+206,Finland,2002,Females,2657304.0
+207,Finland,2003,Females,2661379.0
+208,Finland,2004,Females,2666839.0
+209,Finland,2005,Females,2674534.0
+210,Finland,2006,Females,2683230.0
+211,Finland,2007,Females,2693213.0
+212,Finland,2008,Females,2703697.0
+213,Finland,2009,Females,2714661.0
+214,Finland,2010,Females,2726360.0
+215,Finland,2011,Females,2736860.0
+216,Finland,2012,Females,2748733.0
+217,Finland,2002,Total males+females,5194901.0
+218,Finland,2003,Total males+females,5206295.0
+219,Finland,2004,Total males+females,5219732.0
+220,Finland,2005,Total males+females,5236611.0
+221,Finland,2006,Total males+females,5255580.0
+222,Finland,2007,Total males+females,5276955.0
+223,Finland,2008,Total males+females,5300484.0
+224,Finland,2009,Total males+females,5326314.0
+225,Finland,2010,Total males+females,5351427.0
+226,Finland,2011,Total males+females,5375276.0
+227,Finland,2012,Total males+females,5401267.0
+228,France,2002,Males,28827658.0
+229,France,2003,Males,28974588.0
+230,France,2004,Males,29111526.0
+231,France,2005,Males,30371081.0
+232,France,2006,Males,30608686.0
+233,France,2007,Males,30804161.0
+234,France,2008,Males,30982280.0
+235,France,2009,Males,31158647.0
+236,France,2010,Males,31331380.0
+237,France,2011,Males,31531113.0
+238,France,2012,Males,31670391.0
+239,France,2002,Females,30510073.0
+240,France,2003,Females,30655533.0
+241,France,2004,Females,30789154.0
+242,France,2005,Females,32147490.0
+243,France,2006,Females,32390087.0
+244,France,2007,Females,32587979.0
+245,France,2008,Females,32770860.0
+246,France,2009,Females,33208315.0
+247,France,2010,Females,33384930.0
+248,France,2011,Females,33598633.0
+249,France,2012,Females,33723892.0
+250,France,2002,Total males+females,59337731.0
+251,France,2003,Total males+females,59630121.0
+252,France,2004,Total males+females,59900680.0
+253,France,2005,Total males+females,62518571.0
+254,France,2006,Total males+females,62998773.0
+255,France,2007,Total males+females,63392140.0
+256,France,2008,Total males+females,63753140.0
+257,France,2009,Total males+females,64366962.0
+258,France,2010,Total males+females,64716310.0
+259,France,2011,Total males+females,65129746.0
+260,France,2012,Total males+females,65394283.0
+261,Germany,2002,Males,40274676.0
+262,Germany,2003,Males,40344879.0
+263,Germany,2004,Males,40356014.0
+264,Germany,2005,Males,40353627.0
+265,Germany,2006,Males,40339961.0
+266,Germany,2007,Males,40301166.0
+267,Germany,2008,Males,40274292.0
+268,Germany,2009,Males,40184283.0
+269,Germany,2010,Males,40103606.0
+270,Germany,2011,Males,40112425.0
+271,Germany,2012,Males,40206663.0
+272,Germany,2002,Females,42165633.0
+273,Germany,2003,Females,42191801.0
+274,Germany,2004,Females,42175657.0
+275,Germany,2005,Females,42147222.0
+276,Germany,2006,Females,42098034.0
+277,Germany,2007,Females,42013740.0
+278,Germany,2008,Females,41943545.0
+279,Germany,2009,Females,41818073.0
+280,Germany,2010,Females,41698651.0
+281,Germany,2011,Females,41639177.0
+282,Germany,2012,Females,41637080.0
+283,Germany,2002,Total males+females,82440309.0
+284,Germany,2003,Total males+females,82536680.0
+285,Germany,2004,Total males+females,82531671.0
+286,Germany,2005,Total males+females,82500849.0
+287,Germany,2006,Total males+females,82437995.0
+288,Germany,2007,Total males+females,82314906.0
+289,Germany,2008,Total males+females,82217837.0
+290,Germany,2009,Total males+females,82002356.0
+291,Germany,2010,Total males+females,81802257.0
+292,Germany,2011,Total males+females,81751602.0
+293,Germany,2012,Total males+females,81843743.0
+294,Greece,2002,Males,5440113.0
+295,Greece,2003,Males,5448582.0
+296,Greece,2004,Males,5464401.0
+297,Greece,2005,Males,5486632.0
+298,Greece,2006,Males,5508165.0
+299,Greece,2007,Males,5532047.0
+300,Greece,2008,Males,5553895.0
+301,Greece,2009,Males,5576740.0
+302,Greece,2010,Males,5597465.0
+303,Greece,2011,Males,5600067.0
+304,Greece,2012,Males,5590131.0
+305,Greece,2002,Females,5547887.0
+306,Greece,2003,Females,5557795.0
+307,Greece,2004,Females,5576249.0
+308,Greece,2005,Females,5596119.0
+309,Greece,2006,Females,5617014.0
+310,Greece,2007,Females,5639693.0
+311,Greece,2008,Females,5659890.0
+312,Greece,2009,Females,5683662.0
+313,Greece,2010,Females,5707653.0
+314,Greece,2011,Females,5709818.0
+315,Greece,2012,Females,5699936.0
+316,Greece,2002,Total males+females,10988000.0
+317,Greece,2003,Total males+females,11006377.0
+318,Greece,2004,Total males+females,11040650.0
+319,Greece,2005,Total males+females,11082751.0
+320,Greece,2006,Total males+females,11125179.0
+321,Greece,2007,Total males+females,11171740.0
+322,Greece,2008,Total males+females,11213785.0
+323,Greece,2009,Total males+females,11260402.0
+324,Greece,2010,Total males+females,11305118.0
+325,Greece,2011,Total males+females,11309885.0
+326,Greece,2012,Total males+females,11290067.0
+327,Hungary,2002,Males,4836980.0
+328,Hungary,2003,Males,4818456.0
+329,Hungary,2004,Males,4804113.0
+330,Hungary,2005,Males,4793115.0
+331,Hungary,2006,Males,4784579.0
+332,Hungary,2007,Males,4779078.0
+333,Hungary,2008,Males,4769562.0
+334,Hungary,2009,Males,4763050.0
+335,Hungary,2010,Males,4756900.0
+336,Hungary,2011,Males,4743901.0
+337,Hungary,2012,Males,4731724.0
+338,Hungary,2002,Females,5337873.0
+339,Hungary,2003,Females,5323906.0
+340,Hungary,2004,Females,5312629.0
+341,Hungary,2005,Females,5304434.0
+342,Hungary,2006,Females,5292002.0
+343,Hungary,2007,Females,5287080.0
+344,Hungary,2008,Females,5275839.0
+345,Hungary,2009,Females,5267925.0
+346,Hungary,2010,Females,5257424.0
+347,Hungary,2011,Females,5241821.0
+348,Hungary,2012,Females,5226007.0
+349,Hungary,2002,Total males+females,10174853.0
+350,Hungary,2003,Total males+females,10142362.0
+351,Hungary,2004,Total males+females,10116742.0
+352,Hungary,2005,Total males+females,10097549.0
+353,Hungary,2006,Total males+females,10076581.0
+354,Hungary,2007,Total males+females,10066158.0
+355,Hungary,2008,Total males+females,10045401.0
+356,Hungary,2009,Total males+females,10030975.0
+357,Hungary,2010,Total males+females,10014324.0
+358,Hungary,2011,Total males+females,9985722.0
+359,Hungary,2012,Total males+females,9957731.0
+360,Iceland,2002,Males,143450.0
+361,Iceland,2003,Males,144287.0
+362,Iceland,2004,Males,145401.0
+363,Iceland,2005,Males,147170.0
+364,Iceland,2006,Males,151202.0
+365,Iceland,2007,Males,156576.0
+366,Iceland,2008,Males,160896.0
+367,Iceland,2009,Males,162068.0
+368,Iceland,2010,Males,159936.0
+369,Iceland,2011,Males,160006.0
+370,Iceland,2012,Males,160364.0
+371,Iceland,2002,Females,143125.0
+372,Iceland,2003,Females,144184.0
+373,Iceland,2004,Females,145169.0
+374,Iceland,2005,Females,146407.0
+375,Iceland,2006,Females,148689.0
+376,Iceland,2007,Females,151096.0
+377,Iceland,2008,Females,154563.0
+378,Iceland,2009,Females,157300.0
+379,Iceland,2010,Females,157694.0
+380,Iceland,2011,Females,158446.0
+381,Iceland,2012,Females,159211.0
+382,Iceland,2002,Total males+females,286575.0
+383,Iceland,2003,Total males+females,288471.0
+384,Iceland,2004,Total males+females,290570.0
+385,Iceland,2005,Total males+females,293577.0
+386,Iceland,2006,Total males+females,299891.0
+387,Iceland,2007,Total males+females,307672.0
+388,Iceland,2008,Total males+females,315459.0
+389,Iceland,2009,Total males+females,319368.0
+390,Iceland,2010,Total males+females,317630.0
+391,Iceland,2011,Total males+females,318452.0
+392,Iceland,2012,Total males+females,319575.0
+393,Ireland,2002,Males,1928276.0
+394,Ireland,2003,Males,1969123.0
+395,Ireland,2004,Males,2002778.0
+396,Ireland,2005,Males,2047093.0
+397,Ireland,2006,Males,2101876.0
+398,Ireland,2007,Males,2121171.0
+399,Ireland,2008,Males,2197483.0
+400,Ireland,2009,Males,2214847.0
+401,Ireland,2010,Males,2216444.0
+402,Ireland,2011,Males,2268429.0
+403,Ireland,2012,Males,2269831.0
+404,Ireland,2002,Females,1954407.0
+405,Ireland,2003,Females,1994513.0
+406,Ireland,2004,Females,2024954.0
+407,Ireland,2005,Females,2062080.0
+408,Ireland,2006,Females,2107143.0
+409,Ireland,2007,Females,2118677.0
+410,Ireland,2008,Females,2203852.0
+411,Ireland,2009,Females,2235183.0
+412,Ireland,2010,Females,2251410.0
+413,Ireland,2011,Females,2301435.0
+414,Ireland,2012,Females,2312938.0
+415,Ireland,2002,Total males+females,3882683.0
+416,Ireland,2003,Total males+females,3963636.0
+417,Ireland,2004,Total males+females,4027732.0
+418,Ireland,2005,Total males+females,4109173.0
+419,Ireland,2006,Total males+females,4209019.0
+420,Ireland,2007,Total males+females,4239848.0
+421,Ireland,2008,Total males+females,4401335.0
+422,Ireland,2009,Total males+females,4450030.0
+423,Ireland,2010,Total males+females,4467854.0
+424,Ireland,2011,Total males+females,4569864.0
+425,Ireland,2012,Total males+females,4582769.0
+426,Italy,2002,Males,27587242.0
+427,Italy,2003,Males,27766223.0
+428,Italy,2004,Males,28068608.0
+429,Italy,2005,Males,28376804.0
+430,Italy,2006,Males,28526888.0
+431,Italy,2007,Males,28718441.0
+432,Italy,2008,Males,28949747.0
+433,Italy,2009,Males,29152423.0
+434,Italy,2010,Males,29287403.0
+435,Italy,2011,Males,29413274.0
+436,Italy,2012,Males,29512404.0
+437,Italy,2002,Females,29406500.0
+438,Italy,2003,Females,29554847.0
+439,Italy,2004,Females,29819637.0
+440,Italy,2005,Females,30085571.0
+441,Italy,2006,Females,30224823.0
+442,Italy,2007,Females,30412846.0
+443,Italy,2008,Females,30669543.0
+444,Italy,2009,Females,30892645.0
+445,Italy,2010,Females,31052925.0
+446,Italy,2011,Females,31213168.0
+447,Italy,2012,Females,31308292.0
+448,Italy,2002,Total males+females,56993742.0
+449,Italy,2003,Total males+females,57321070.0
+450,Italy,2004,Total males+females,57888245.0
+451,Italy,2005,Total males+females,58462375.0
+452,Italy,2006,Total males+females,58751711.0
+453,Italy,2007,Total males+females,59131287.0
+454,Italy,2008,Total males+females,59619290.0
+455,Italy,2009,Total males+females,60045068.0
+456,Italy,2010,Total males+females,60340328.0
+457,Italy,2011,Total males+females,60626442.0
+458,Italy,2012,Total males+females,60820696.0
+459,Japan,2002,Males,62244000.0
+460,Japan,2003,Males,62250000.0
+461,Japan,2004,Males,62307000.0
+462,Japan,2005,Males,62297000.0
+463,Japan,2006,Males,62348977.0
+464,Japan,2007,Males,62330000.0
+465,Japan,2008,Males,62310000.0
+466,Japan,2009,Males,62251000.0
+467,Japan,2010,Males,62130000.0
+468,Japan,2011,Males,62327000.0
+469,Japan,2012,Males,62184000.0
+470,Japan,2002,Females,65047000.0
+471,Japan,2003,Females,65185000.0
+472,Japan,2004,Females,65313000.0
+473,Japan,2005,Females,65390000.0
+474,Japan,2006,Females,65419017.0
+475,Japan,2007,Females,65440000.0
+476,Japan,2008,Females,65461000.0
+477,Japan,2009,Females,65441000.0
+478,Japan,2010,Females,65380000.0
+479,Japan,2011,Females,65730000.0
+480,Japan,2012,Females,65615000.0
+481,Japan,2002,Total males+females,127291000.0
+482,Japan,2003,Total males+females,127435000.0
+483,Japan,2004,Total males+females,127620000.0
+484,Japan,2005,Total males+females,127687000.0
+485,Japan,2006,Total males+females,127767994.0
+486,Japan,2007,Total males+females,127770000.0
+487,Japan,2008,Total males+females,127771000.0
+488,Japan,2009,Total males+females,127692000.0
+489,Japan,2010,Total males+females,127510000.0
+490,Japan,2011,Total males+females,128057000.0
+491,Japan,2012,Total males+females,127799000.0
+492,Korea,2002,Males,23983838.0
+493,Korea,2003,Males,24126185.0
+494,Korea,2004,Males,24228209.01
+495,Korea,2005,Males,24190906.0
+496,Korea,2006,Males,24267609.0
+497,Korea,2007,Males,24344276.0
+498,Korea,2008,Males,24415883.0
+499,Korea,2009,Males,24481480.0
+500,Korea,2010,Males,24540316.0
+501,Korea,2011,Males,24942339.0
+502,Korea,2012,Males,25039557.0
+503,Korea,2002,Females,23655780.0
+504,Korea,2003,Females,23799133.0
+505,Korea,2004,Females,23853954.0
+506,Korea,2005,Females,23947171.0
+507,Korea,2006,Females,24029575.0
+508,Korea,2007,Females,24112093.0
+509,Korea,2008,Females,24190904.0
+510,Korea,2009,Females,24265213.0
+511,Korea,2010,Females,24334223.0
+512,Korea,2011,Females,24837101.0
+513,Korea,2012,Females,24964884.0
+514,Korea,2002,Total males+females,47639618.0
+515,Korea,2003,Total males+females,47925318.0
+516,Korea,2004,Total males+females,48082163.01
+517,Korea,2005,Total males+females,48138077.0
+518,Korea,2006,Total males+females,48297184.0
+519,Korea,2007,Total males+females,48456369.0
+520,Korea,2008,Total males+females,48606787.0
+521,Korea,2009,Total males+females,48746693.0
+522,Korea,2010,Total males+females,48874539.0
+523,Korea,2011,Total males+females,49779440.0
+524,Korea,2012,Total males+females,50004441.0
+525,Luxembourg,2002,Males,218820.0
+526,Luxembourg,2003,Males,221009.0
+527,Luxembourg,2004,Males,223020.0
+528,Luxembourg,2005,Males,224740.0
+529,Luxembourg,2006,Males,232100.0
+530,Luxembourg,2007,Males,235792.0
+531,Luxembourg,2008,Males,239607.0
+532,Luxembourg,2009,Males,244835.0
+533,Luxembourg,2010,Males,249406.0
+534,Luxembourg,2011,Males,254619.0
+535,Luxembourg,2012,Males,261820.0
+536,Luxembourg,2002,Females,225230.0
+537,Luxembourg,2003,Females,227291.0
+538,Luxembourg,2004,Females,228580.0
+539,Luxembourg,2005,Females,230260.0
+540,Luxembourg,2006,Females,236986.0
+541,Luxembourg,2007,Females,240395.0
+542,Luxembourg,2008,Females,244192.0
+543,Luxembourg,2009,Females,248665.0
+544,Luxembourg,2010,Females,252660.0
+545,Luxembourg,2011,Females,257221.0
+546,Luxembourg,2012,Females,263033.0
+547,Luxembourg,2002,Total males+females,444050.0
+548,Luxembourg,2003,Total males+females,448300.0
+549,Luxembourg,2004,Total males+females,451600.0
+550,Luxembourg,2005,Total males+females,455000.0
+551,Luxembourg,2006,Total males+females,469086.0
+552,Luxembourg,2007,Total males+females,476187.0
+553,Luxembourg,2008,Total males+females,483799.0
+554,Luxembourg,2009,Total males+females,493500.0
+555,Luxembourg,2010,Total males+females,502066.0
+556,Luxembourg,2011,Total males+females,511840.0
+557,Luxembourg,2012,Total males+females,524853.0
+558,Mexico,2002,Males,50683083.0
+559,Mexico,2003,Males,51274171.0
+560,Mexico,2004,Males,51844576.0
+561,Mexico,2005,Males,50814582.0
+562,Mexico,2006,Males,51238427.0
+563,Mexico,2007,Males,51654642.0
+564,Mexico,2008,Males,52066743.0
+565,Mexico,2009,Males,52466262.0
+566,Mexico,2010,Males,52853788.0
+567,Mexico,2011,Males,53229849.0
+568,Mexico,2012,Males,56519797.55
+569,Mexico,2002,Females,51143166.0
+570,Mexico,2003,Females,51765793.0
+571,Mexico,2004,Females,52368927.0
+572,Mexico,2005,Females,52187289.0
+573,Mexico,2006,Females,52708439.0
+574,Mexico,2007,Females,53219640.0
+575,Mexico,2008,Females,53723982.0
+576,Mexico,2009,Females,54216256.0
+577,Mexico,2010,Females,54696909.0
+578,Mexico,2011,Females,55166362.0
+579,Mexico,2012,Females,59163070.14
+580,Mexico,2002,Total males+females,101826249.0
+581,Mexico,2003,Total males+females,103039964.0
+582,Mexico,2004,Total males+females,104213503.0
+583,Mexico,2005,Total males+females,103001871.0
+584,Mexico,2006,Total males+females,103946866.0
+585,Mexico,2007,Total males+females,104874282.0
+586,Mexico,2008,Total males+females,105790725.0
+587,Mexico,2009,Total males+females,106682518.0
+588,Mexico,2010,Total males+females,107550697.0
+589,Mexico,2011,Total males+females,108396211.0
+590,Mexico,2012,Total males+females,115682867.7
+591,Netherlands,2002,Males,7971967.0
+592,Netherlands,2003,Males,8015471.0
+593,Netherlands,2004,Males,8045914.0
+594,Netherlands,2005,Males,8065979.0
+595,Netherlands,2006,Males,8077407.0
+596,Netherlands,2007,Males,8088514.0
+597,Netherlands,2008,Males,8112073.0
+598,Netherlands,2009,Males,8156396.0
+599,Netherlands,2010,Males,8203476.0
+600,Netherlands,2011,Males,8243482.0
+601,Netherlands,2012,Males,8282871.0
+602,Netherlands,2002,Females,8133318.0
+603,Netherlands,2003,Females,8177101.0
+604,Netherlands,2004,Females,8212118.0
+605,Netherlands,2005,Females,8239547.0
+606,Netherlands,2006,Females,8256803.0
+607,Netherlands,2007,Females,8269478.0
+608,Netherlands,2008,Females,8293326.0
+609,Netherlands,2009,Females,8329391.0
+610,Netherlands,2010,Females,8371513.0
+611,Netherlands,2011,Females,8412317.0
+612,Netherlands,2012,Females,8447477.0
+613,Netherlands,2002,Total males+females,16105285.0
+614,Netherlands,2003,Total males+females,16192572.0
+615,Netherlands,2004,Total males+females,16258032.0
+616,Netherlands,2005,Total males+females,16305526.0
+617,Netherlands,2006,Total males+females,16334210.0
+618,Netherlands,2007,Total males+females,16357992.0
+619,Netherlands,2008,Total males+females,16405399.0
+620,Netherlands,2009,Total males+females,16485787.0
+621,Netherlands,2010,Total males+females,16574989.0
+622,Netherlands,2011,Total males+females,16655799.0
+623,Netherlands,2012,Total males+females,16730348.0
+624,New Zealand,2002,Males,1934010.0
+625,New Zealand,2003,Males,1971300.0
+626,New Zealand,2004,Males,1998300.0
+627,New Zealand,2005,Males,2017900.0
+628,New Zealand,2006,Males,2037540.0
+629,New Zealand,2007,Males,2070700.0
+630,New Zealand,2008,Males,2092180.0
+631,New Zealand,2009,Males,2117570.0
+632,New Zealand,2010,Males,2144670.0
+633,New Zealand,2011,Males,2164590.0
+634,New Zealand,2012,Males,2180100.0
+635,New Zealand,2002,Females,2005120.0
+636,New Zealand,2003,Females,2037900.0
+637,New Zealand,2004,Females,2064200.0
+638,New Zealand,2005,Females,2082670.0
+639,New Zealand,2006,Females,2101930.0
+640,New Zealand,2007,Females,2157580.0
+641,New Zealand,2008,Females,2176700.0
+642,New Zealand,2009,Females,2198270.0
+643,New Zealand,2010,Females,2223070.0
+644,New Zealand,2011,Females,2240560.0
+645,New Zealand,2012,Females,2253000.0
+646,New Zealand,2002,Total males+females,3939130.0
+647,New Zealand,2003,Total males+females,4009200.0
+648,New Zealand,2004,Total males+females,4062500.0
+649,New Zealand,2005,Total males+females,4100570.0
+650,New Zealand,2006,Total males+females,4139470.0
+651,New Zealand,2007,Total males+females,4228280.0
+652,New Zealand,2008,Total males+females,4268880.0
+653,New Zealand,2009,Total males+females,4315840.0
+654,New Zealand,2010,Total males+females,4367740.0
+655,New Zealand,2011,Total males+females,4405150.0
+656,New Zealand,2012,Total males+females,4433100.0
+657,Norway,2002,Males,2241934.0
+658,Norway,2003,Males,2256107.0
+659,Norway,2004,Males,2269049.0
+660,Norway,2005,Males,2284070.0
+661,Norway,2006,Males,2301981.0
+662,Norway,2007,Males,2325788.0
+663,Norway,2008,Males,2359690.0
+664,Norway,2009,Males,2395053.0
+665,Norway,2010,Males,2426752.0
+666,Norway,2011,Males,2460849.0
+667,Norway,2012,Males,2498871.0
+668,Norway,2002,Females,2282132.0
+669,Norway,2003,Females,2296145.0
+670,Norway,2004,Females,2308408.0
+671,Norway,2005,Females,2322293.0
+672,Norway,2006,Females,2338238.0
+673,Norway,2007,Females,2355346.0
+674,Norway,2008,Females,2377481.0
+675,Norway,2009,Females,2404199.0
+676,Norway,2010,Females,2431447.0
+677,Norway,2011,Females,2459456.0
+678,Norway,2012,Females,2486999.0
+679,Norway,2002,Total males+females,4524066.0
+680,Norway,2003,Total males+females,4552252.0
+681,Norway,2004,Total males+females,4577457.0
+682,Norway,2005,Total males+females,4606363.0
+683,Norway,2006,Total males+females,4640219.0
+684,Norway,2007,Total males+females,4681134.0
+685,Norway,2008,Total males+females,4737171.0
+686,Norway,2009,Total males+females,4799252.0
+687,Norway,2010,Total males+females,4858199.0
+688,Norway,2011,Total males+females,4920305.0
+689,Norway,2012,Total males+females,4985870.0
+690,Poland,2002,Males,18760788.0
+691,Poland,2003,Males,18506749.0
+692,Poland,2004,Males,18486430.0
+693,Poland,2005,Males,18470253.0
+694,Poland,2006,Males,18453855.0
+695,Poland,2007,Males,18426775.0
+696,Poland,2008,Males,18411501.0
+697,Poland,2009,Males,18414926.0
+698,Poland,2010,Males,18428742.0
+699,Poland,2011,Males,18444373.0
+700,Poland,2012,Males,18654577.0
+701,Poland,2002,Females,19871665.0
+702,Poland,2003,Females,19711782.0
+703,Poland,2004,Females,19704178.0
+704,Poland,2005,Females,19703582.0
+705,Poland,2006,Females,19703200.0
+706,Poland,2007,Females,19698704.0
+707,Poland,2008,Females,19704140.0
+708,Poland,2009,Females,19720950.0
+709,Poland,2010,Females,19738587.0
+710,Poland,2011,Females,19755664.0
+711,Poland,2012,Females,19883870.0
+712,Poland,2002,Total males+females,38632453.0
+713,Poland,2003,Total males+females,38218531.0
+714,Poland,2004,Total males+females,38190608.0
+715,Poland,2005,Total males+females,38173835.0
+716,Poland,2006,Total males+females,38157055.0
+717,Poland,2007,Total males+females,38125479.0
+718,Poland,2008,Total males+females,38115641.0
+719,Poland,2009,Total males+females,38135876.0
+720,Poland,2010,Total males+females,38167329.0
+721,Poland,2011,Total males+females,38200037.0
+722,Poland,2012,Total males+females,38538447.0
+723,Portugal,2002,Males,4991590.0
+724,Portugal,2003,Males,5030247.0
+725,Portugal,2004,Males,5066308.0
+726,Portugal,2005,Males,5094339.0
+727,Portugal,2006,Males,5115742.0
+728,Portugal,2007,Males,5129937.0
+729,Portugal,2008,Males,5138807.0
+730,Portugal,2009,Males,5142566.0
+731,Portugal,2010,Males,5148203.0
+732,Portugal,2011,Males,5146643.0
+733,Portugal,2012,Males,5030437.0
+734,Portugal,2002,Females,5343969.0
+735,Portugal,2003,Females,5377218.0
+736,Portugal,2004,Females,5408377.0
+737,Portugal,2005,Females,5434916.0
+738,Portugal,2006,Females,5453850.0
+739,Portugal,2007,Females,5469158.0
+740,Portugal,2008,Females,5478768.0
+741,Portugal,2009,Females,5484684.0
+742,Portugal,2010,Females,5489510.0
+743,Portugal,2011,Females,5490336.0
+744,Portugal,2012,Females,5511961.0
+745,Portugal,2002,Total males+females,10335559.0
+746,Portugal,2003,Total males+females,10407465.0
+747,Portugal,2004,Total males+females,10474685.0
+748,Portugal,2005,Total males+females,10529255.0
+749,Portugal,2006,Total males+females,10569592.0
+750,Portugal,2007,Total males+females,10599095.0
+751,Portugal,2008,Total males+females,10617575.0
+752,Portugal,2009,Total males+females,10627250.0
+753,Portugal,2010,Total males+females,10637713.0
+754,Portugal,2011,Total males+females,10636979.0
+755,Portugal,2012,Total males+females,10542398.0
+756,Slovak Republic,2002,Males,2611921.0
+757,Slovak Republic,2003,Males,2611306.0
+758,Slovak Republic,2004,Males,2611124.0
+759,Slovak Republic,2005,Males,2613490.0
+760,Slovak Republic,2006,Males,2615872.0
+761,Slovak Republic,2007,Males,2618284.0
+762,Slovak Republic,2008,Males,2623127.0
+763,Slovak Republic,2009,Males,2629804.0
+764,Slovak Republic,2010,Males,2636938.0
+765,Slovak Republic,2011,Males,2642240.0
+766,Slovak Republic,2012,Males,2631752.0
+767,Slovak Republic,2002,Females,2767030.0
+768,Slovak Republic,2003,Females,2767855.0
+769,Slovak Republic,2004,Females,2768929.0
+770,Slovak Republic,2005,Females,2771332.0
+771,Slovak Republic,2006,Females,2773308.0
+772,Slovak Republic,2007,Females,2775353.0
+773,Slovak Republic,2008,Females,2777871.0
+774,Slovak Republic,2009,Females,2782450.0
+775,Slovak Republic,2010,Females,2787987.0
+776,Slovak Republic,2011,Females,2793033.0
+777,Slovak Republic,2012,Females,2772570.0
+778,Slovak Republic,2002,Total males+females,5378951.0
+779,Slovak Republic,2003,Total males+females,5379161.0
+780,Slovak Republic,2004,Total males+females,5380053.0
+781,Slovak Republic,2005,Total males+females,5384822.0
+782,Slovak Republic,2006,Total males+females,5389180.0
+783,Slovak Republic,2007,Total males+females,5393637.0
+784,Slovak Republic,2008,Total males+females,5400998.0
+785,Slovak Republic,2009,Total males+females,5412254.0
+786,Slovak Republic,2010,Total males+females,5424925.0
+787,Slovak Republic,2011,Total males+females,5435273.0
+788,Slovak Republic,2012,Total males+females,5404322.0
+789,Spain,2002,Males,19779378.0
+790,Spain,2003,Males,20387085.0
+791,Spain,2004,Males,20801989.0
+792,Spain,2005,Males,21173289.0
+793,Spain,2006,Males,21561262.0
+794,Spain,2007,Males,21942724.0
+795,Spain,2008,Males,22356882.0
+796,Spain,2009,Males,22628444.0
+797,Spain,2010,Males,22672420.0
+798,Spain,2011,Males,22724864.0
+799,Spain,2012,Males,23099012.0
+800,Spain,2002,Females,20629952.0
+801,Spain,2003,Females,21163499.0
+802,Spain,2004,Females,21543353.0
+803,Spain,2005,Females,21864746.0
+804,Spain,2006,Females,22196988.0
+805,Spain,2007,Females,22531907.0
+806,Spain,2008,Females,22926377.0
+807,Spain,2009,Females,23199728.0
+808,Spain,2010,Females,23316596.0
+809,Spain,2011,Females,23428062.0
+810,Spain,2012,Females,23719209.0
+811,Spain,2002,Total males+females,40409330.0
+812,Spain,2003,Total males+females,41550584.0
+813,Spain,2004,Total males+females,42345342.0
+814,Spain,2005,Total males+females,43038035.0
+815,Spain,2006,Total males+females,43758250.0
+816,Spain,2007,Total males+females,44474631.0
+817,Spain,2008,Total males+females,45283259.0
+818,Spain,2009,Total males+females,45828172.0
+819,Spain,2010,Total males+females,45989016.0
+820,Spain,2011,Total males+females,46152926.0
+821,Spain,2012,Total males+females,46818221.0
+822,Sweden,2002,Males,4408445.0
+823,Sweden,2003,Males,4427107.0
+824,Sweden,2004,Males,4446656.0
+825,Sweden,2005,Males,4466311.0
+826,Sweden,2006,Males,4486550.0
+827,Sweden,2007,Males,4523523.0
+828,Sweden,2008,Males,4563921.0
+829,Sweden,2009,Males,4603710.0
+830,Sweden,2010,Males,4649014.0
+831,Sweden,2011,Males,4690244.0
+832,Sweden,2012,Males,4726834.0
+833,Sweden,2002,Females,4500683.0
+834,Sweden,2003,Females,4513681.0
+835,Sweden,2004,Females,4529014.0
+836,Sweden,2005,Females,4545081.0
+837,Sweden,2006,Females,4561202.0
+838,Sweden,2007,Females,4589734.0
+839,Sweden,2008,Females,4619006.0
+840,Sweden,2009,Females,4652637.0
+841,Sweden,2010,Females,4691668.0
+842,Sweden,2011,Females,4725326.0
+843,Sweden,2012,Females,4756021.0
+844,Sweden,2002,Total males+females,8909128.0
+845,Sweden,2003,Total males+females,8940788.0
+846,Sweden,2004,Total males+females,8975670.0
+847,Sweden,2005,Total males+females,9011392.0
+848,Sweden,2006,Total males+females,9047752.0
+849,Sweden,2007,Total males+females,9113257.0
+850,Sweden,2008,Total males+females,9182927.0
+851,Sweden,2009,Total males+females,9256347.0
+852,Sweden,2010,Total males+females,9340682.0
+853,Sweden,2011,Total males+females,9415570.0
+854,Sweden,2012,Total males+females,9482855.0
+855,Switzerland,2002,Males,3549089.0
+856,Switzerland,2003,Males,3575029.0
+857,Switzerland,2004,Males,3601539.0
+858,Switzerland,2005,Males,3628696.0
+859,Switzerland,2006,Males,3652502.0
+860,Switzerland,2007,Males,3679359.0
+861,Switzerland,2008,Males,3727014.0
+862,Switzerland,2009,Males,3786675.0
+863,Switzerland,2010,Males,3830566.0
+864,Switzerland,2011,Males,3877426.0
+865,Switzerland,2012,Males,3922253.0
+866,Switzerland,2002,Females,3712121.0
+867,Switzerland,2003,Females,3738824.0
+868,Switzerland,2004,Females,3762609.0
+869,Switzerland,2005,Females,3786406.0
+870,Switzerland,2006,Females,3806626.0
+871,Switzerland,2007,Females,3829380.0
+872,Switzerland,2008,Females,3866480.0
+873,Switzerland,2009,Females,3915181.0
+874,Switzerland,2010,Females,3955240.0
+875,Switzerland,2011,Females,3992708.0
+876,Switzerland,2012,Females,4032409.0
+877,Switzerland,2002,Total males+females,7261210.0
+878,Switzerland,2003,Total males+females,7313853.0
+879,Switzerland,2004,Total males+females,7364148.0
+880,Switzerland,2005,Total males+females,7415102.0
+881,Switzerland,2006,Total males+females,7459128.0
+882,Switzerland,2007,Total males+females,7508739.0
+883,Switzerland,2008,Total males+females,7593494.0
+884,Switzerland,2009,Total males+females,7701856.0
+885,Switzerland,2010,Total males+females,7785806.0
+886,Switzerland,2011,Total males+females,7870134.0
+887,Switzerland,2012,Total males+females,7954662.0
+888,Turkey,2003,Males,35418484.0
+889,Turkey,2004,Males,35666000.0
+890,Turkey,2005,Males,36123000.0
+891,Turkey,2006,Males,36574211.0
+892,Turkey,2007,Males,36574211.0
+893,Turkey,2008,Males,35376533.0
+894,Turkey,2009,Males,35901154.0
+895,Turkey,2010,Males,36462470.0
+896,Turkey,2011,Males,37043182.0
+897,Turkey,2012,Males,37532954.0
+898,Turkey,2003,Females,34753495.0
+899,Turkey,2004,Females,35023500.0
+900,Turkey,2005,Females,35484500.0
+901,Turkey,2006,Females,35945763.0
+902,Turkey,2007,Females,35945763.0
+903,Turkey,2008,Females,35209723.0
+904,Turkey,2009,Females,35615946.0
+905,Turkey,2010,Females,36098842.0
+906,Turkey,2011,Females,36679806.0
+907,Turkey,2012,Females,37191315.0
+908,Turkey,2003,Total males+females,70171980.0
+909,Turkey,2004,Total males+females,70689500.0
+910,Turkey,2005,Total males+females,71607500.0
+911,Turkey,2006,Total males+females,72519974.0
+912,Turkey,2007,Total males+females,72519974.0
+913,Turkey,2008,Total males+females,70586256.0
+914,Turkey,2009,Total males+females,71517100.0
+915,Turkey,2010,Total males+females,72561312.0
+916,Turkey,2011,Total males+females,73722988.0
+917,Turkey,2012,Total males+females,74724269.0
+918,United Kingdom,2002,Males,28953126.36
+919,United Kingdom,2003,Males,28930648.0
+920,United Kingdom,2004,Males,29193035.0
+921,United Kingdom,2005,Males,29394997.0
+922,United Kingdom,2006,Males,29595506.0
+923,United Kingdom,2007,Males,29805033.0
+924,United Kingdom,2008,Males,30033723.0
+925,United Kingdom,2009,Males,30263920.0
+926,United Kingdom,2010,Males,30508636.0
+927,United Kingdom,2011,Males,30772582.0
+928,United Kingdom,2012,Males,31140669.0
+929,United Kingdom,2002,Females,29753778.809
+930,United Kingdom,2003,Females,30331409.0
+931,United Kingdom,2004,Females,30506793.0
+932,United Kingdom,2005,Females,30664861.0
+933,United Kingdom,2006,Females,30817364.0
+934,United Kingdom,2007,Females,30976313.0
+935,United Kingdom,2008,Females,31145537.0
+936,United Kingdom,2009,Females,31331174.0
+937,United Kingdom,2010,Females,31518326.0
+938,United Kingdom,2011,Females,31726030.0
+939,United Kingdom,2012,Females,32115485.0
+940,United Kingdom,2002,Total males+females,58706905.169
+941,United Kingdom,2003,Total males+females,59262057.0
+942,United Kingdom,2004,Total males+females,59699828.0
+943,United Kingdom,2005,Total males+females,60059858.0
+944,United Kingdom,2006,Total males+females,60412870.0
+945,United Kingdom,2007,Total males+females,60781346.0
+946,United Kingdom,2008,Total males+females,61179260.0
+947,United Kingdom,2009,Total males+females,61595094.0
+948,United Kingdom,2010,Total males+females,62026962.0
+949,United Kingdom,2011,Total males+females,62498612.0
+950,United Kingdom,2012,Total males+females,63256154.0
+951,United States,2002,Males,135301432.0
+952,United States,2003,Males,141957038.0
+953,United States,2004,Males,143037260.0
+954,United States,2005,Males,144947584.0
+955,United States,2006,Males,146394361.0
+956,United States,2007,Males,147922764.0
+957,United States,2008,Males,150336755.0
+958,United States,2009,Males,150464902.0
+959,United States,2010,Males,151840906.0
+960,United States,2011,Males,152449134.0
+961,United States,2012,Males,153596908.0
+962,United States,2002,Females,141943484.0
+963,United States,2003,Females,146817188.0
+964,United States,2004,Females,147773459.0
+965,United States,2005,Females,149495099.0
+966,United States,2006,Females,150913782.0
+967,United States,2007,Females,152261670.0
+968,United States,2008,Females,154509976.0
+969,United States,2009,Females,154662649.0
+970,United States,2010,Females,155915671.0
+971,United States,2011,Females,157539944.0
+972,United States,2012,Females,158635141.0
+973,United States,2002,Total males+females,277244916.0
+974,United States,2003,Total males+females,288774226.0
+975,United States,2004,Total males+females,290810719.0
+976,United States,2005,Total males+females,294442683.0
+977,United States,2006,Total males+females,297308143.0
+978,United States,2007,Total males+females,300184434.0
+979,United States,2008,Total males+females,304846731.0
+980,United States,2009,Total males+females,305127551.0
+981,United States,2010,Total males+females,307756577.0
+982,United States,2011,Total males+females,309989078.0
+983,United States,2012,Total males+females,312232049.0
