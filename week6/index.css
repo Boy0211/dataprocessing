@@ -1,0 +1,41 @@
+text {
+  font-family: helvetica, sans-serif;
+  font-weight: 100
+}
+
+
+.chart-line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1px;
+}
+.y_axis text {
+  font-size: 12pt;
+}
+.axis text {
+  font-size: 12pt;
+}
+.axis .label {
+  font-size: 18pt;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+
+body {
+  background-color: #eee;
+}
+
+rect:hover {
+  fill: black;
+  }
+
+h3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

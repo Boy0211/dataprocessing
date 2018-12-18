@@ -17,13 +17,22 @@ window.onload = function() {
 
   var color = d3.scaleOrdinal()
       .domain(["Male", "Female"])
-      .range(["blue", "pink"])
+      .range(["blue", "red"])
 
   d3.json("data/data.json").then(function(data) {
     drawGroupedStackedBarChart(data);
-    drawLineChart();
-
   });
+
+  d3.csv("data/data_final.csv", type).then(function(data2) {
+    drawLineChart(data2);
+    console.log(data2);
+  });
+
+  function type(d) {
+    d.year = new Date(d.year);
+    d.population = +d.population;
+    return d;
+  }
 
   function drawGroupedStackedBarChart(data) {
 
@@ -176,6 +185,10 @@ window.onload = function() {
               .call(d3.axisLeft(yScaleGrouped))
     	};
 
+      rect.on("click", function(d) {
+        updateLineChart(d.data["Country"]);
+      })
+
   	// positions the group and gives the class legend
   	var legend = svg.selectAll(".legend")
   	.data(color.domain())
@@ -208,10 +221,11 @@ window.onload = function() {
   	.attr("class","title")
   };
 
-  function drawLineChart() {
-    var outerWidth = 960;
-    var outerHeight = 550;
-    var margin = { left: 80, top: 5, right: 70, bottom: 60 };
+  function drawLineChart(data) {
+
+    var outerWidth = 700;
+    var outerHeight = 600;
+    var margin = { left: 120, top: 5, right: 70, bottom: 60 };
     var duration = 800
 
     var xColumn = "year";
@@ -228,10 +242,19 @@ window.onload = function() {
     var innerHeight = outerHeight - margin.top  - margin.bottom;
 
     var svg = d3.select("body").append("svg")
-      .attr("width", outerWidth)
-      .attr("height", outerHeight);
+        .attr("class", "second_graph")
+        .attr("width", outerWidth)
+        .attr("height", outerHeight)
+
+    svg.append("text")
+        .attr("x", width / 3)
+        .attr("y", 20)
+        .attr("dy",".20em")
+        .style("font-size", 25)
+        .text("Population Growth");
+
     var g = svg.append("g")
-      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
     var xAxisG = g.append("g")
       .attr("class", "x axis")
@@ -243,7 +266,7 @@ window.onload = function() {
       .text(xAxisLabelText);
 
     var yAxisG = g.append("g")
-      .attr("class", "y axis");
+      .attr("class", "y_axis");
     var yAxisLabel = yAxisG.append("text")
       .style("text-anchor", "middle")
       .attr("transform", "translate(-" + yAxisLabelOffset + "," + (innerHeight / 2) + ") rotate(-90)")
@@ -253,55 +276,77 @@ window.onload = function() {
     var xScale = d3.scaleTime().range([0, innerWidth]);
     var yScale = d3.scaleLinear().range([innerHeight, 0]);
 
-    // Use a modified SI formatter that uses "B" for Billion.
-    var siFormat = d3.format("s");
-    var customTickFormat = function (d){
-      return siFormat(d).replace("G", "B");
-    };
-
     var xAxis = d3.axisBottom(xScale)
-      .ticks(5)
-      .tickSizeOuter(0);
+        .ticks(6)
     var yAxis = d3.axisLeft(yScale)
-      .ticks(5)
-      .tickFormat(customTickFormat)
-      .tickSizeOuter(0);
+        .ticks(6)
 
     var line = d3.line()
-      .x(function(d) { return xScale(d[xColumn]); })
-      .y(function(d) { return yScale(d[yColumn]); });
+        .x(function(d) { return xScale(d[xColumn]); })
+        .y(function(d) { return yScale(d[yColumn]); })
+        .curve(d3.curveMonotoneX)
 
-    function render(data){
+    var nested = d3.nest()
+      .key(function (d){ return d['country']; })
+      .entries(data);
 
-      xScale.domain(d3.extent(data, function (d){ return d[xColumn]; }));
-      yScale.domain([d3.min(data, function (d){ return d[yColumn]; }), d3.max(data, function (d){ return d[yColumn]; })]);
+    xScale.domain(d3.extent(nested[0].values, function (d) { return d[xColumn]; }));
+    xAxisG.call(xAxis)
 
-      xAxisG.call(xAxis);
-      yAxisG.call(yAxis);
+    yScale.domain([d3.min(nested[0].values, function (d){ return d[yColumn]; }), d3.max(nested[0].values, function (d){ return d[yColumn]; })]);
+    yAxisG.call(yAxis);
 
-      var nested = d3.nest()
-        .key(function (d){ return d[lineColumn]; })
-        .entries(data);
+    svg.select("g").append("path")
+        .datum(nested[0])
+        .attr("class", "chart-line")
+        .attr("d", function(d) { return line(d.values); })
+  };
 
-      console.log(nested);
-
-      var paths = g.selectAll(".chart-line")
-          .data(nested)
-          .enter()
-        .append("path")
-          .attr("class", "chart-line")
-          .attr("d", function(d) { return line(d.values); })
-          .exit().remove();
-    }
-
-    function type(d) {
-      d.year = new Date(d.year);
-      d.population = +d.population;
-      return d;
-    }
+  function updateLineChart(country) {
 
     d3.csv("data/data_final.csv", type).then(function(data) {
-      render(data)
-    });
+
+      var nested = d3.nest()
+        .key(function (d){ return d['country']; })
+        .entries(data);
+
+      for (var i = 0; i < nested.length; i++) {
+        // console.log(nested[i].key);
+        // console.log(country);
+        if (nested[i].key == country) {
+          var integer = i
+        }
+      }
+    console.log(integer);
+    var xColumn = "year";
+    var yColumn = "population";
+    var lineColumn = "country";
+
+    var yScale = d3.scaleLinear()
+        .range([535, 0])
+        .domain([d3.min(nested[integer].values, function (d){ return d[yColumn]; }), d3.max(nested[integer].values, function (d){ return d[yColumn]; })]);
+
+    var xScale = d3.scaleTime()
+        .range([0, 510])
+        .domain(d3.extent(nested[0].values, function (d) { return d[xColumn]; }));
+
+    var line = d3.line()
+        .x(function(d) { return xScale(d[xColumn]); })
+        .y(function(d) { return yScale(d[yColumn]); })
+        .curve(d3.curveMonotoneX)
+
+    d3.select(".second_graph").select(".y_axis")
+        .transition()
+        .duration(duration)
+        .call(d3.axisLeft(yScale))
+
+    // console.log(nested[integer]);
+    d3.select(".second_graph").select(".chart-line")
+        .datum(nested[integer])
+        .transition()
+        .duration(duration)
+        .attr("d", function(d) { return line(d.values); })
+        // .attr("transform", "translate(" + (-margin.left) + "," + (-margin.top) + ")");
+    })
   }
 };
